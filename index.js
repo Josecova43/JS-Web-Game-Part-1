@@ -6,9 +6,11 @@ function newImage(url, left, bottom){
     newImage.style.bottom= bottom + 'px'
     document.body.append(newImage)
    
-newImage.addEventListener('click', function(){
+newImage.addEventListener('dblclick', function(){
         newImage.remove()
     })
+
+    
 }
 
 newImage('assets/green-character.gif',100 , 100);
